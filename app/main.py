@@ -24,7 +24,7 @@ def main():
             hash_object(flag, file_path)
 
         else:
-            raise RuntimeError(f"Invalid command {commands}")
+            raise RuntimeError(f"Invalid command {command}")
 
     else:
         raise RuntimeError("No command provided")
